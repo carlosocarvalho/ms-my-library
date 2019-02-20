@@ -1,0 +1,48 @@
+{
+    "name": "modalnetworks/digital-library",
+    "type": "library",
+    "description": "This package for integration with digital library Brazil",
+    "keywords": ["metabuscador", "metasearch", "rest", "web service", "curl", "client", "HTTP client"],
+    "homepage": "http://guzzlephp.org/",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Carlos Carvalho",
+            "email": "cjc@modalnetworks.com",
+            "homepage": "http://modalnetworks.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "symfony/event-dispatcher": "~2.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "spatie/array-to-xml": "^2.8"
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Modalnetworks\\DigitalLibrary\\": "src/"
+        }
+    },
+
+
+
+    "scripts": {
+        "test": "phpunit"
+    },
+
+
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.9-dev"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
