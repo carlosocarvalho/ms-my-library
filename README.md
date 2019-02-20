@@ -18,9 +18,9 @@ use Modalnetworks\DigitalLibrary\Digital;
 use Modalnetworks\DigitalLibrary\Contracts\ResponseDigitalContract;
 
 $data = [
-    'FirstName' => 'Deloitte',
-    //'LastName' => 'deloitte.fake',
-    'Email'    => 'deloitte_01@deloitte.fake.com',
+    'FirstName' => 'Joe',
+    'LastName' => 'Legal',
+    'Email'    => 'joe@legal.fake.com',
     'Isbn'     => '9788502628489'
     ];
 //start item with data
