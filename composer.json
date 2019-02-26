@@ -18,8 +18,7 @@
         "php": ">=5.4",
         "ext-curl": "*",
         "symfony/event-dispatcher": "~2.1",
-        "guzzlehttp/guzzle": "^6.3",
-        "spatie/array-to-xml": "^2.8"
+        "guzzlehttp/guzzle": "^6.3"
 
     },
 

@@ -8,7 +8,7 @@
 
 namespace Modalnetworks\DigitalLibrary;
 
-use Spatie\ArrayToXml\ArrayToXml;
+
 
 use Modalnetworks\DigitalLibrary\Contracts\BookContract;
 
@@ -34,9 +34,9 @@ abstract class BookBase implements BookContract
 
     protected function asXml()
     {
-       return ArrayToXml::convert( $this->makeFillables(),
+       return BookToXml::convert( $this->makeFillables(),
             ['rootElementName'=> $this->elementRoot,
-             '_attributes' => $this->attributes  ],
+             '@attributes' => $this->attributes  ],
             true,
             $this->charset
             );
